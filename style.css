@@ -147,6 +147,20 @@ section {
   color: #ccccca;
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color:  #1d1d1d;
+  color: #ccccca;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #ccccca;
+  color: #1d1d1d;
+  text-decoration: none;
+}
 
 .text p {
   font-size: 1.2rem;
@@ -174,12 +188,12 @@ section {
 .videos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 6rem;
 
 }
 
 /* Mobile Responsive */
-@media (max-width: 768px) {
+@media (max-width: 1025px) {
   .videos {
     grid-template-columns: 1fr;
 
@@ -262,10 +276,27 @@ color: #f0f0f0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
   color: #ccccca;
+  font-size: 1.2rem;
+  font-weight: 300;
+
+}
+
+.contact-text {
+  text-align: left;
+  max-width: 40rem;
+  gap: 20rem;
+  margin-bottom: 2rem;
 }
 .contact a {
   color: #f0f0f0;
 }
+
+.contact a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
 
